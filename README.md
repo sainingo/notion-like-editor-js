@@ -8,7 +8,7 @@ A user has to click the slash followed by 1 command and a set of style will appe
 
 > A user can as well use the following commands:
 
-- Heading h1 > / 1
+- simply by typing / then 1, then typing text, and hitting enter
 
 ## Technologies used
 
