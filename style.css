@@ -1,0 +1,145 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 20px;
+}
+
+.editor-container {
+  width: 60%;
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+#editor {
+  /* border: 1px solid #ccc; */
+  padding: 8px;
+  margin-bottom: 10px;
+  min-height: 40px;
+  width: 100%;
+  border: none;
+  font-size: 16px;
+}
+
+#editor:focus {
+  outline: none;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content div {
+  padding: 10px;
+  cursor: pointer;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.right-header > a {
+  text-decoration: none;
+  color: unset;
+  opacity: 0.8;
+}
+
+.left-header {
+  display: flex;
+  align-items: center;
+}
+.left-header span {
+  margin-left: 10px;
+  color: rgb(11, 115, 233);
+}
+
+.container h2 {
+  text-align: center;
+  font-size: 36px;
+}
+
+
+section {
+  width: 60%;
+  margin: 0 auto;
+}
+
+section > hr {
+  margin: 18px 0;
+}
+
+section > p {
+  margin: 20px 0;
+  opacity: 0.7;
+}
+
+.dropdown-container {
+  width: 400px;
+  min-height: 600px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.dropdown-container h4 {
+  font-size: 1.2em;
+}
+
+.dropdown-container p {
+  font-size: 1em;
+  opacity: 0.8;
+  font-weight: lighter;
+}
+
+.dropdown-container span {
+  font-size: 1em;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  background-color: #ece4e4;
+  height: 60px;
+  margin: 10px 0;
+}
+
+.wrapper > span {
+  font-size: 36px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.wrapper-h3 > p {
+  font-weight: bolder;
+}
+
+.wrapper-h3 > h5 {
+  font-weight: 300;
+}
+
+#result-container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.first-section {
+  padding: 10px 8px;
+  width: 60%;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.right-section {
+  padding: 0 12px;
+}
+
+
+.left-section {
+  padding: 0 8px;
+}
